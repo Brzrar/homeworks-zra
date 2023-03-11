@@ -1,4 +1,4 @@
-let Starbucks = {
+var Starbucks = {
   coffee: {
     americano: "Одинарный эспрессо с горячей водой",
     latte: "Двойной эспрессо с молоком",
@@ -12,7 +12,7 @@ let Starbucks = {
   }
 }
 
-let deduc = prompt("Что вы хотели заказать?").trim().toLowerCase();
+var deduc = prompt("Что вы хотели заказать?").trim().toLowerCase();
 
 if (Starbucks.coffee[deduc]) {
   if (Starbucks.coffee[deduc] !== false) {
