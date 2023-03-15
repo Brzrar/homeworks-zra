@@ -80,15 +80,15 @@ tags.forEach(tag => {
   }
 });
 
-const sortedTags = Object.entries(tagS).sort((a, b) => b[1] - a[1]);
+const sortTags = Object.entries(tagS).sort((a, b) => b[1] - a[1]);
 
 const result = {};
 
-sortedTags.forEach(([tag, count]) => {
+sortTags.forEach(([tag, count]) => {
   result[tag] = count;
 });
 
 console.log(result);
-console.log(sortedTags)
+console.log(sortTags)
 
 
