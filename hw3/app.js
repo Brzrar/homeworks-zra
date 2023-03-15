@@ -89,5 +89,6 @@ sortedTags.forEach(([tag, count]) => {
 });
 
 console.log(result);
+console.log(sortedTags)
 
 
